@@ -35,6 +35,7 @@ margin: 15px auto 0 auto;
 
 
 
+/****** HEADER *******/
 
 header {
     display: flex;
@@ -66,6 +67,11 @@ a#bouton-cv {
     font-size: 20px;
     padding: 5px 15px;
 }
+
+
+/****** BLOG *******/
+
+
 #blog {
     background-color: #EDF7FA;
     padding-bottom: 35px;
@@ -109,9 +115,7 @@ h3 {
 
 
 
-
-
-
+/****** PROJET *******/
 
 #projets {
     max-width: 1200px;
@@ -156,8 +160,7 @@ display: flex;
 
 
 
-
-
+/****** CONTACT *******/
 
 #contact {
     max-width: 1200px;
@@ -231,6 +234,7 @@ button {
 
 
 
+/****** FOOTER *******/
 
 footer {
     padding-top: 100px;
