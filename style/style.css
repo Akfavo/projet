@@ -1,0 +1,292 @@
+body {
+      font-family: "Heebo", sans-serif;
+    margin: 0;
+    color: #21243D;
+}
+
+
+
+
+
+nav {
+    display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1200px;
+padding-left: 20px;
+padding-right: 20px;
+box-sizing: border-box;
+margin: 15px auto 0 auto;
+}
+#nav-links {
+    display:flex;
+    gap:65px;
+}
+.nav-link {
+    color:black;
+    text-decoration:none;
+    font-weight:700;
+    font-size:20px;
+}
+#menu-button {
+    display : none;
+}
+
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: 75px auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 0;
+}
+#header-content {
+    width : 630px;
+}
+#subtitle {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 35px 0;
+}
+a#bouton-cv {
+    background-color: #b61d1d;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 15px;
+}
+#blog {
+    background-color: #EDF7FA;
+    padding-bottom: 35px;
+}
+#blog-content {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+h2 {
+    font-weight: 400;
+    font-size: 22px;
+    padding-top: 20px;
+}
+#articles {
+    display: flex;
+    justify-content: space-between;
+
+}
+.article-blog {
+    background-color: white;
+    border-radius: 4px;
+    width: 543px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    max-width: 48%;
+}
+h3 {
+    font-size : 26px;
+}
+.date-categorie {
+    font-size: 18px;
+    display: flex;
+    gap: 25px;
+}
+.article-description {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+#projets {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+box-sizing: border-box;
+    margin: auto;
+}
+
+.projet {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 40px;
+}
+.date-type {
+display: flex;
+    gap: 25px;
+}
+
+.projet-title {
+    font-weight : 700;
+    font-size: 30px;
+    margin: 0 0 15px 0;
+}
+
+.projet-date {
+    font-weight : 900;
+    font-size: 18px;
+    background-color: #142850;
+    color: #FFFFFF;
+    border-radius: 16px;
+    padding: 0 10px;
+}
+.projet-type {
+    color: #4c5258;
+}
+
+.projet-description {
+    font-size: 16px;
+}
+
+
+
+
+
+
+#contact {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    margin: auto;
+}
+#contact-content {
+    display: flex;
+}
+
+h3.contact-title {
+    font-weight: 800;
+    font-size: 36px;
+}
+
+p#contact-intro {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+p#contact-email {
+    font-size: 16px;
+}
+
+h3.contact-title {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.socials {
+    font-size: 16px;
+    color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+}
+
+#coordonnees {
+    flex: 1;
+}
+
+label {
+    font-size: 14px;
+}
+
+input, select, textarea {
+    background-color: #F7F7F7;
+    border: none;
+    height: 46px;
+}
+
+input {
+
+#message {
+    height: 165px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 56px;
+}
+}
+
+
+
+
+footer {
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#icon-socials {
+    justify-content: center;
+    gap: 20px;
+    display: flex;
+}
+
+p#copyright {
+    font-size: 14px;
+    color: #21243D;
+}
+
+
+
+@media (max-width: 700px) {
+    #coordonnees {
+    display: none;
+}
+    .projet {
+        flex-direction: column;
+    }
+    .projet-image {
+        width: 100%;
+    }
+    #articles {
+        gap: 20px;
+        flex-direction: column;
+    }
+    .article-blog {
+        width: 100%;
+        max-width: none;
+
+    }
+    .date-categorie {
+        gap: 5px;
+    }
+    header {
+    flex-direction: column-reverse;
+    text-align: center;
+}
+    #header-content {
+    width: 100%;
+}
+    h2 {
+    text-align: center;
+}
+    .nav-link {
+    display: none;
+}
+    #menu-button {
+    display: block;
+}
+}
